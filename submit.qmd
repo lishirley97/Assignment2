@@ -11,13 +11,13 @@ editor: visual
 ```{r}
 #Check data
 library(readr)
-ind <- read_csv("/Users/shirleyli/Desktop/Med_School/USC/MPH/Fall_2023/PM566_DataScience/Assignment2/chs_individual.csv")
+ind <- read_csv("https://raw.githubusercontent.com/USCbiostats/data-science-data/master/01_chs/chs_individual.csv")
 
 head(ind)
 nrow(ind)
 ncol(ind)
 
-reg <- read_csv("/Users/shirleyli/Desktop/Med_School/USC/MPH/Fall_2023/PM566_DataScience/Assignment2/chs_regional.csv")
+reg <- read_csv("https://raw.githubusercontent.com/USCbiostats/data-science-data/master/01_chs/chs_regional.csv")
 
 head(reg)
 nrow(reg)
