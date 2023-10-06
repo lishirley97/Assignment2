@@ -1,7 +1,9 @@
 ---
-title: "Assignment2"
-format: html
-editor: visual
+title: "Assignment6"
+author: ""
+format: 
+  html:
+    embed-resources: true
 ---
 
 ## Data Wrangling
